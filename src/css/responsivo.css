@@ -1,0 +1,50 @@
+@media (max-width: 620px) {
+    .hiragana-slider {
+        padding: 0 15px;
+        gap: 10px;
+    }
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-dica {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-hiragana {
+        height: 480px;
+    }
+    .cartao .img-hiragana {
+        max-height: 230px;
+    }
+
+    .cartao .infos .nome {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .cartao .infos .tipo {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 630px) {
+    .cabecalho {
+        padding-top: 30px;
+    }
+
+    .hiragana-slider {
+        margin: 20px 0px;
+    }
+        
+}
